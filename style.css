@@ -1,0 +1,184 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #f8e1e7;
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8e1e7;
+  }
+  
+  /* Gallery Styles */
+  .swiper {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 40px auto;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .background-slide {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .background-image {
+    background-image: url('media/photo3.jpg'); /* Replace with your background photo */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* More Photos Section */
+  .more-photos {
+    margin-top: 60px;
+  }
+  
+  .location-button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .location-button:hover {
+    background-color: #ff5722;
+  }
+  /* For the background image (Slide 1) */
+.background-slide {
+    width: 100%;
+    height: 500px;  /* Set your desired height */
+    background-image: url('media/photo3.jpg'); /* Replace with your background photo */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* For the bride and groom photos (Slide 2 & 3) */
+  .photo-slide {
+    margin-bottom: 20px; /* Add spacing if needed */
+    text-align: center;
+  }
+  
+  .photo-slide img {
+    width: 100%;
+    max-width: 600px; /* You can adjust the size */
+    height: auto;
+    
+  }
+  
+  /* Swiper styles */
+  .swiper {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    margin-top: 30px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2cae5; /* Optional: black background */
+  }
+  
+  .swiper-slide img {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensure image fits inside without cutting */
+  }
+  
+  
+  /* For the background image (Slide 1) */
+.background-slide {
+    width: 100%;
+    height: 500px;  /* Set your desired height */
+    background-image: url('media/photo3.jpg'); /* Replace with your background photo */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Flex container for the bride and groom photos */
+
+  .photo-container {
+    display: flex;
+    width: 40%; /* Adjust as necessary */
+    height: 40%; /* Adjust as necessary */
+    align-items: center; /* Vertically center the images */
+    justify-content: center; /* Horizontally center the images */
+    gap: 20px; /* Space between the images */
+    margin: 20px auto; /* Center the container horizontally and add space at the top */
+  }
+  
+  
+  /* For each photo slide (Bride and Groom Photos) */
+  .photo-slide {
+    flex: 1; /* Each image takes equal space */
+    text-align: center;
+    width: 40%; /* Adjust as necessary */
+    height: 40%; /* Centering the images */
+  }
+  
+  .photo-slide img {
+    width: 100%; /* Make the image fill the container */
+    max-width: 500px; /* Optional: Limit the max width */
+    height: auto;
+  }
+  
+  /* Set background image for the whole screen */
+body {
+    margin: 0; /* Removes default margin */
+    height: 100vh; /* Ensures body takes up the full height of the viewport */
+    background-image: url('media/photo3.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: repeat; /* Prevents the image from repeating */
+  }
+  
